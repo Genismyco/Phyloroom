@@ -1,5 +1,13 @@
 ##################   Merging files and Genbank file extracting
 
+#Readme
+#example to use:
+#on terminal (e.g. anaconda) write >>> a b c d
+#a is this code and directory "...\Merging_gbfiles_to_xlsx0_432.py"
+#b is the gb files directory "C:\gb\"
+#c is the output directory "C:\output\"
+#d is for convenience to use name of organism "Fungi_genus"
+
 ##when there is no libraries. Prefer to create "environments" to specific libraries (e.g. conda create environment)
 ##However, you can use as follows; installing libraries out of environments
 import os,sys
