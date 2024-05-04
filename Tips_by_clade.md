@@ -1,4 +1,7 @@
-This Python code utilizes Biopython's Phylo module to extract clade names from a phylogenetic tree stored in a Nexus file format.
+## Tips by Clade
+
+This Python code utilizes Biopython's Phylo module to extract tip names from an ML phylogenetic tree clade stored in a Nexus file format.
+Based on two tip names from the clade and the supporting value, the output is the all tip specimens from that clade.
 
 ```python
 from Bio import Phylo
