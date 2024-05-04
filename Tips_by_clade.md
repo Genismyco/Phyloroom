@@ -23,7 +23,7 @@ def extract_clade_names(tree_file, branch_length_threshold, example_names):
     return clade_names
 
 # Example usage
-tree_file = '/home/genivaldo/tree.nex'  # Replace with the path to your Nexus file
+tree_file = '/home/user/tree.nex'  # Replace with the path to your Nexus file
 threshold = input("Bootstrap threshold: (e.g. 0.99) ")
 branch_support_threshold = float(threshold)
 sp1 = input("Species 1: ")
