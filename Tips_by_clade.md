@@ -29,7 +29,7 @@ example_names = [sp1, sp2]
 clade_names = extract_clade_names(tree_file, branch_support_threshold, example_names)
 
 print(clade_names)
-
+```
 
 ```markdown
 ## 1. The function `extract_clade_names` takes three arguments:
@@ -50,3 +50,4 @@ print(clade_names)
 7. The script prompts the user to input the bootstrap threshold (as a float value) and the names of two species.
 
 8. It calls the `extract_clade_names` function with the provided inputs and prints the resulting set of clade names.
+```
