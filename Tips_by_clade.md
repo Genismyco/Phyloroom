@@ -32,7 +32,7 @@ print(clade_names)
 
 
 ```markdown
-1. The function `extract_clade_names` takes three arguments:
+## 1. The function `extract_clade_names` takes three arguments:
    - `tree_file`: the path to the Nexus file containing the phylogenetic tree.
    - `branch_length_threshold`: a threshold value for branch lengths, below which clade names will be extracted.
    - `example_names`: a list of names representing species for which the common ancestor and its clades will be extracted.
