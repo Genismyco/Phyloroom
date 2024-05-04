@@ -3,7 +3,7 @@
 ##when there is no libraries. Prefer to create "environments" to specific libraries (e.g. conda create environment)
 ##However, you can use as follows; installing libraries out of environments
 import os,sys
-'''
+
 try:
     import Bio
 except ImportError:
@@ -22,7 +22,7 @@ except ImportError:
 try:
     import openpyxl
 except ImportError:
-    os.system('pip3 install openpyxl')'''
+    os.system('pip3 install openpyxl')
 	
 import Bio	
 from Bio import SeqIO
